@@ -2,7 +2,7 @@ import * as path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: __dirname,
+  root: './',
   build: {
     outDir: './dist',
     reportCompressedSize: true,
@@ -10,7 +10,7 @@ export default defineConfig({
     minify: false,
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'index.html'),
+        main: path.resolve('./', 'index.html'),
       },
       output: {
         entryFileNames: 'main.js',
