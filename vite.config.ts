@@ -21,7 +21,6 @@ export default defineConfig({
     port: 5829,
   },
   server: {
-    port: 5829,
     headers: {
       'Service-Worker-Allowed': '/',
       'Service-Worker': 'script',
