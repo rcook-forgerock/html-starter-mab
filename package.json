@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@forgerock/davinci-client": "latest",
-    "@forgerock/javascript-sdk": "latest"
+    "@forgerock/javascript-sdk": "latest",
+    "next": "^15.5.3"
   }
 }
